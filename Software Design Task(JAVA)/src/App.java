@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
 
 // Enumeration for Passenger Types
 enum PassengerType {
@@ -187,9 +190,8 @@ class TravelPackage {
     }
 }
 
+
 // Unit Tests using JUnit
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
 class TravelPackageTest {
     @Test
@@ -246,7 +248,7 @@ class TravelPackageTest {
     }
 }
 
-public class Main {
+public class App {
     public static void main(String[] args) {
         // Sample usage
         // Create activities
